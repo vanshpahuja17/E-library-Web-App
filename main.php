@@ -14,6 +14,7 @@ if (isset($_POST['reg_user'])) {
   $fname = mysqli_real_escape_string($db, $_POST['fname']);
   $lname = mysqli_real_escape_string($db, $_POST['lname']);
   $aadhar = mysqli_real_escape_string($db, $_POST['aadhar']);
+  $email = mysqli_real_escape_string($db, $_POST['email']);
   $password_1 = mysqli_real_escape_string($db, $_POST['password_1']);
   $password_2 = mysqli_real_escape_string($db, $_POST['password_2']);
 
@@ -42,8 +43,8 @@ if (isset($_POST['reg_user'])) {
   if (count($errors) == 0) {
   	// $password = md5($password_1);//encrypt the password before saving in the database
 
-  	$query = "INSERT INTO student (fname,lname,LCN, Password) 
-  			  VALUES('$fname','$lname','$aadhar', '$password_1')";
+  	$query = "INSERT INTO student (fname,lname,LCN,email, Password) 
+  			  VALUES('$fname','$lname','$aadhar', '$email','$password_1')";
   	mysqli_query($db, $query);
   	$_SESSION['aadhar'] = $aadhar;
   	// $_SESSION['success'] = "You are now logged in";

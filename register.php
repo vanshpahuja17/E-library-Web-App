@@ -109,7 +109,7 @@ body {
     <div class="vansh10">
     <h1 class="vansh" align="center"><b>E Library - Vesit</b></h1>
 <div class="login-box"><br><br><br><br><br>
-<br>
+<br><br><br>
   <div class="header">
     <div class="vansh">
 
@@ -133,6 +133,12 @@ body {
 				<i class="fa fa-user" aria-hidden="true"></i>
 				<input type="number" placeholder="Library Card no."
 						name="aadhar" value="">
+			</div>
+
+      <div class="textbox">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<input type="varchar" placeholder="E-mail"
+						name="email" value="">
 			</div>
   
     <div class="textbox">
