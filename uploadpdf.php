@@ -1,31 +1,29 @@
-<?php
-	if (isset($_POST['submit'])) {
-        include('connection.php');  
-		$name = $_POST['project_name'];
-
-		if (isset($_FILES['pdf_file']['project_name']))
-		{
-        echo "if";
-		$file_name = $_FILES['pdf_file']['project_name'];
-		$file_tmp = $_FILES['pdf_file']['tmp_name'];
-
-		move_uploaded_file($file_tmp,"./pdf/".$file_name);
-
-		$insertquery = "INSERT INTO book(name,pdf) VALUES('$name','$file_name')";
-		$iquery = mysqli_query($con, $insertquery);
-		}
-		else
-		{
-		?>
-			<div class=
-			"alert alert-danger alert-dismissible
-			fade show text-center">
-			<a class="close" data-dismiss="alert"
-				aria-label="close">×</a>
-			<strong>Failed!</strong>
-				File must be uploaded in PDF format!
-			</div>
-		<?php
+<?php	
+	date_default_timezone_set("Etc/GMT-8");
+	require_once 'connection1.php';
+ 
+	if(ISSET($_POST['upload'])){
+		$file_name = $_FILES['file']['name'];
+		$file_temp = $_FILES['file']['tmp_name'];
+		$file_size = $_FILES['file']['size'];
+		$file_type = $_FILES['file']['type'];
+		$date_uploaded=date("Y-m-d");
+		$location="upload/".$file_name;
+		if($file_size < 5242880){
+			if(move_uploaded_file($file_temp, $location)){
+				try{
+					$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+					$sql = "INSERT INTO `file`(file_name, file_type, date_uploaded, location)  VALUES ('$file_name', '$file_type', '$date_uploaded', '$location')";
+					$conn->exec($sql);
+				}catch(PDOException $e){
+					echo $e->getMessage();
+				}
+ 
+				$conn = null;
+				header('location: index.php');
+			}
+		}else{
+			echo "<center><h3 class='text-danger'>File too large to upload!</h3></center>";
 		}
 	}
 ?>
