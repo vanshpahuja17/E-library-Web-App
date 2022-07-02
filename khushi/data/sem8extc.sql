@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem8extc` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem8extc` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'RF Design ', 'David. A. Weston, Electromagnetic Compatibility-principles and applications, Second Edition, Publisher: Marcel Dekker, Inc. 2001,');
 

@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem7cmpn` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem7cmpn` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Digital Signal & Image Processing', 'John G. Proakis, Dimitris and G.Manolakis, ‗Digital Signal Processing: Principles, Algorithms, and Applications‘ 4th Edition 2007, Pearson Education');
 

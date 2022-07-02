@@ -3,7 +3,7 @@
 $localhost = "localhost"; #localhost
 $dbusername = "root"; #username of phpmyadmin
 $dbpassword = "";  #password of phpmyadmin
-$dbname = "vesit";  #database name
+$dbname = "library";  #database name
  
 #connection string
 $conn = mysqli_connect($localhost,$dbusername,$dbpassword,$dbname);

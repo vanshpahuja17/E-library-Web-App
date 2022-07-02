@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem7etrx` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem7etrx` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Instrumentation System Design', ' Curtis D. Johnson, Process Control Instrumentation Technology, 7th edition, PHI');
 

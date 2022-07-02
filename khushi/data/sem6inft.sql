@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem6inft` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem6inft` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Data Mining & Business Intelligence', 'Paulraj Ponniah “Data Warehousing Fundamentals: A Comprehensive Guide for IT Professionals” Wiley Publications ');
 

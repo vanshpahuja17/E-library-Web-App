@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem6cmpn` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem6cmpn` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'System Programming & Compiler Construction ', 'D. M Dhamdhere: Systems programming and Operating Systems, Tata McGraw Hill, Revised Second Edition');
 

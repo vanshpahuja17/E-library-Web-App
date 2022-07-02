@@ -107,7 +107,7 @@ body {
     
     <div class="vansh10">
     <h1 class="vansh" align="center"><b>E Library-Vesit</b></h1>
-<form method="post" name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
+<form method="post" name="f1" action = "authentication1.php" onsubmit = "return validation()" method = "POST">  
 		<div class="login-box">
 			<h1>Teacher Login</h1>
 

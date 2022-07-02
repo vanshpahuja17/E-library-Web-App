@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem6extc` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem6extc` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Electromagnetics and Antenna', 'Principles of Electromagnetics Engineering- Matthew N. O.Sadiku , S.V.Kulkarni, Oxford university press, 6th edition');
 

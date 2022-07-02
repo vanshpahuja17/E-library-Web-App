@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem7inft` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem7inft` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Enterprise Network Design ', ' Authorized Self-Study Guide, Designing for Cisco Internetwork Solutions (DESGN), Second Edition, Cisco Press-Diane Teare.');
 

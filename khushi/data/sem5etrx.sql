@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem5etrx` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem5etrx` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Principles of Control System', 'Norman Nise, “Control Systems Engineering”, Wiley, 8th edition, 2019.');
 

@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem8instru` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem8instru` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Instrumentation Project Documentation and Execution ', 'D. N. Pawar, D. K. Nikam, Fundamentals of Project Planning and Engineering, 1st Edition, Penram International Publishing-2017.');
 

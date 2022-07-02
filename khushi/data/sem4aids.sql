@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem4aids` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem4aids` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Engineering maths 4', 'Kumbhojkar');
 

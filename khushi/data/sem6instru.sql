@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem6instru` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem6instru` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Industrial Process Control', 'Bela G. Liptak,Instrument engineers handbook-Process control ,Chilton book company, third edition,1995.');
 

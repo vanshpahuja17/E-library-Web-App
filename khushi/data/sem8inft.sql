@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem8inft` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem8inft` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Internet of Everything  ', 'Internet of Things ( A Hands-on-Approach) by Arshdeep Bhaga and Vijay Madisetti');
 

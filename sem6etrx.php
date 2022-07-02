@@ -47,7 +47,7 @@
                             </thead>
                             <tbody>
                                 <?php 
-                                    $con = mysqli_connect("localhost","root","khushi12","vesit");
+                                    $con = mysqli_connect("localhost","root","","library");
 
                                     if(isset($_GET['search']))
                                     {

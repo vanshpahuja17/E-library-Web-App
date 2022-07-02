@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem5inft` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem5inft` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Internet Programming', 'Rediscovering JavaScript, Master ES6, ES7, and ES8, By Venkat Subramaniam · 2018');
 

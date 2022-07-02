@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem6etrx` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem6etrx` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, ' Basic VLSI Design', 'John P. Uyemura, “Introduction to VLSI Circuits and Systems”, Wiley India Pvt. Ltd.');
 

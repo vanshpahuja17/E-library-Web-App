@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem5instru` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem5instru` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Electrical Machines and Drives ', 'Say M. G.,The performance & Design of Alternating Current Machines, 3rd edition, Oxford University');
 

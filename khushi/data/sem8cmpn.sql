@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem8cmpn` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem8cmpn` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Human Machine Interaction', 'Alan Dix, Janet Finlay, Gregory Abowd, Russell Beale, ―Human Computer Interaction‖, 3rdEdition, Pearson Education, 2004');
 

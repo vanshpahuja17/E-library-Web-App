@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem8etrx` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem8etrx` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Internet of Things', 'ArshdeepBahga and Vijay Madisetti, “Internet of Things: A Hands-on Approach, Universities Press');
 

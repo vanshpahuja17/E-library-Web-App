@@ -2,7 +2,7 @@
 <?php 
 $localhost = "localhost"; #localhost
 $dbusername = "root"; #username of phpmyadmin
-$dbpassword = "khushi12";  #password of phpmyadmin
+$dbpassword = "";  #password of phpmyadmin
 $dbname = "khushi";  #database name
  
 #connection string

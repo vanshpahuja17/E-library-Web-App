@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem7instru` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem7instru` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Industrial Process Control ', 'W. L. McCabe and Julian Smith, ―Unit operation and chemical engineering‖, Tata McGraw Hill, Sixth edition, 2001.');
 

@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem7extc` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem7extc` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Microwave Engineering', 'David Pozar, “Microwave Engineering”, Wiley Publication, Fourth Edition');
 

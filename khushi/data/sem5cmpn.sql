@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem5cmpn` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem5cmpn` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Theoretical Computer Science ', 'Vivek Kulkarni, “Theory of Computation”, Illustrated Edition, Oxford University Press, (12 April 2013) India.');
 

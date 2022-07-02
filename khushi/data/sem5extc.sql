@@ -1,4 +1,8 @@
-
+CREATE TABLE `sem5extc` (
+  `ID` varchar(255) NOT NULL,
+  `BSUBJECT` text(255) NOT NULL,
+  `BNAME` text(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `sem5extc` (`ID`, `BSUBJECT`, `BNAME`) VALUES
 (1, 'Digital Communication ', ' Lathi B P, and Ding Z-Modern Digital and Analog Communication Systems, Oxford University Press, Fourth Edition, 2017');
 
